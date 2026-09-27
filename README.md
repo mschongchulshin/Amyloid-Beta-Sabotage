@@ -2,7 +2,7 @@
 
 This repository provides the dataset and analysis scripts for a sequence-based framework that prioritizes Aβ42 fibril variants for mechanical weakening and evaluates the nominated variants by steered molecular dynamics (SMD).
 
-The mechanical stiffness of amyloid fibrils contributes to their resistance to degradation. We ask whether sequence changes restricted to the K16–A21 region can weaken a preassembled fibril, and whether such changes can be prioritized computationally before simulation. A condition-aware rank oracle is trained on 540 sequence–condition records from 135 unique sequences measured under four loading conditions, and a reinforcement learning policy searches the K16–A21 region against that oracle. Nominated variants are then evaluated by direct SMD against seed-matched wild type under the same loading condition. Mutating one of nine chains was sufficient to reduce both the Young's modulus and the ultimate tensile strength of a preassembled fibril.
+![Architecture](docs/architecture.png)
 
 ## Dataset
 
