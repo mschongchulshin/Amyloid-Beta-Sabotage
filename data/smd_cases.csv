@@ -1,7 +1,11 @@
-case,parent_case,substitutions,mutated_chains,pull_residue,pull_axis,sequence,smd_status,note
-5,3,"K16F,L17F,V18F",A,23,X,DAEFRHDSGYEVHHQFFFFFAEDVGSNKGAIIGLMVGGVVIA,simulated,"mixed-composition system: the Case 3 substitutions applied to a chain subset; the single-chain sequence is identical to Case 3, so the model score is not distinct and chain composition is not a model input"
-6,3,"K16F,L17F,V18F","B,D,G,I",23,X,DAEFRHDSGYEVHHQFFFFFAEDVGSNKGAIIGLMVGGVVIA,simulated,"mixed-composition system: the Case 3 substitutions applied to a chain subset; the single-chain sequence is identical to Case 3, so the model score is not distinct and chain composition is not a model input"
-7,3,"K16F,L17F,V18F","C,D,H,I",23,X,DAEFRHDSGYEVHHQFFFFFAEDVGSNKGAIIGLMVGGVVIA,simulated,"mixed-composition system: the Case 3 substitutions applied to a chain subset; the single-chain sequence is identical to Case 3, so the model score is not distinct and chain composition is not a model input"
-8,4,"L17T,V18Q,F19Q,F20Y,A21R",A,23,Y,DAEFRHDSGYEVHHQKTQQYREDVGSNKGAIIGLMVGGVVIA,simulated,"mixed-composition system: the Case 4 substitutions applied to a chain subset; the single-chain sequence is identical to Case 4, so the model score is not distinct and chain composition is not a model input"
-9,4,"L17T,V18Q,F19Q,F20Y,A21R","B,D,G,I",23,Y,DAEFRHDSGYEVHHQKTQQYREDVGSNKGAIIGLMVGGVVIA,simulated,"mixed-composition system: the Case 4 substitutions applied to a chain subset; the single-chain sequence is identical to Case 4, so the model score is not distinct and chain composition is not a model input"
-10,4,"L17T,V18Q,F19Q,F20Y,A21R","C,D,H,I",23,Y,DAEFRHDSGYEVHHQKTQQYREDVGSNKGAIIGLMVGGVVIA,simulated,"mixed-composition system: the Case 4 substitutions applied to a chain subset; the single-chain sequence is identical to Case 4, so the model score is not distinct and chain composition is not a model input"
+case,mutant_chains,substitutions,loading_condition,sequence
+1,All chains,"K16A, L17F, V18A, F19A",16LYS/X,DAEFRHDSGYEVHHQAFAAFAEDVGSNKGAIIGLMVGGVVIA
+2,All chains,"K16A, L17F, V18M",16LYS/Y,DAEFRHDSGYEVHHQAFMFFAEDVGSNKGAIIGLMVGGVVIA
+3,All chains,"K16F, L17F, V18F",23ASP/X,DAEFRHDSGYEVHHQFFFFFAEDVGSNKGAIIGLMVGGVVIA
+4,All chains,"L17T, V18Q, F19Q, F20Y, A21R",23ASP/Y,DAEFRHDSGYEVHHQKTQQYREDVGSNKGAIIGLMVGGVVIA
+5,One chain (A),"K16F, L17F, V18F",23ASP/X,DAEFRHDSGYEVHHQFFFFFAEDVGSNKGAIIGLMVGGVVIA
+6,"Half, grouped (B, D, G, I)","K16F, L17F, V18F",23ASP/X,DAEFRHDSGYEVHHQFFFFFAEDVGSNKGAIIGLMVGGVVIA
+7,"Half, alternating (C, D, H, I)","K16F, L17F, V18F",23ASP/X,DAEFRHDSGYEVHHQFFFFFAEDVGSNKGAIIGLMVGGVVIA
+8,One chain (A),"L17T, V18Q, F19Q, F20Y, A21R",23ASP/Y,DAEFRHDSGYEVHHQKTQQYREDVGSNKGAIIGLMVGGVVIA
+9,"Half, grouped (B, D, G, I)","L17T, V18Q, F19Q, F20Y, A21R",23ASP/Y,DAEFRHDSGYEVHHQKTQQYREDVGSNKGAIIGLMVGGVVIA
+10,"Half, alternating (C, D, H, I)","L17T, V18Q, F19Q, F20Y, A21R",23ASP/Y,DAEFRHDSGYEVHHQKTQQYREDVGSNKGAIIGLMVGGVVIA
