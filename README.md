@@ -14,6 +14,8 @@ This repository provides the dataset and analysis scripts for a sequence-based f
 
 `data/smd_cases.csv` and `data/smd_endpoints.csv` contain the composition of the ten direct SMD cases and their measured endpoints over three seed-matched pairs.
 
+`gromacs_inputs/` holds the wild-type preparation and run parameters: the starting structure, the topology, the solvated and ionised coordinates, and the minimisation, equilibration and pulling parameter files. The substituted systems were prepared by the same procedure.
+
 Rank scores are member-averaged ranks of the predicted endpoint against each ensemble member's training prediction distribution. Lower values indicate candidates prioritized for weakening. They are not MPa values, not physical reductions, and not probabilities.
 
 ## Requirements
